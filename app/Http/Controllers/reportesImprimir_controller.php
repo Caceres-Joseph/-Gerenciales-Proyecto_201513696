@@ -75,7 +75,7 @@ class reportesImprimir_controller extends Controller
 
         $items = $items->get();
         $titulo0 = $this->lineas->Indice_UnaColumna(
-            2, 48, "RESTAURANTE EL MIRADOR"
+            2, 48, "- EL Gamer"
         );
         $titulo1 = $this->lineas->Indice_UnaColumna(
             2, 48, "== REPORTE - DEVOLUCIONES/DIA ==="
@@ -160,7 +160,7 @@ class reportesImprimir_controller extends Controller
         $items = $items->get();
 
         $titulo0 = $this->lineas->Indice_UnaColumna(
-            2, 48, "RESTAURANTE EL MIRADOR"
+            2, 48, "- EL Gamer"
         );
         $titulo1 = $this->lineas->Indice_UnaColumna(
             2, 48, "== REPORTE - MESERO/DIA ==="
@@ -261,7 +261,7 @@ class reportesImprimir_controller extends Controller
         $items = json_decode($items->getContent());
  
         $titulo0 = $this->lineas->Indice_UnaColumna(
-            2, 48, "RESTAURANTE EL MIRADOR"
+            2, 48, "- EL Gamer"
         );
         $titulo1 = $this->lineas->Indice_UnaColumna(
             2, 48, "== REPORTE - HISTORIAL PRODUCTO/SEMANA ==="

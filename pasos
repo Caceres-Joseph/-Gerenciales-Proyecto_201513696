@@ -65,4 +65,4 @@ php artisan vendor:publish --provider="thiagoalessio\TesseractOCR\TesseractOCR"
 ARTICULO-NUEVO-SUBRODUCTO
 *********************
 */
-mysql -u root -p RestauranteMirador82 < 13-04-2019.sql
+mysql -u root -p -Gamer82 < 13-04-2019.sql

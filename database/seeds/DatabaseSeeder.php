@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         // $this->call(UsersTableSeeder::class);
 
-        /*
+        
         DB::table('rols')->insert([
             'nombre'=>'Administradores',
             'estado' =>1
@@ -41,7 +41,6 @@ class DatabaseSeeder extends Seeder
             'estado' =>1
         ]);
 
-        */
 
         DB::table('rols')->insert([
             'nombre'=>'Empleados',

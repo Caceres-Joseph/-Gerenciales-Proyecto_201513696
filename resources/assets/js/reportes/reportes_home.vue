@@ -130,7 +130,7 @@
         <!-- <v-btn fab    color = "blue darken-3" @click="drawer = !drawer" ><v-icon>add</v-icon></v-btn> -->
         <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
         
-        <span  >Restaurante&nbsp;<span class="text">El Mirador</span></span>
+        <span  >-&nbsp;<span class="text">El Gamer</span></span>
       </v-toolbar-title>
       <v-text-field
         flat
@@ -143,7 +143,7 @@
       <v-menu bottom left>
             <v-avatar size="40px"  slot="activator" class="mr-3" >
               <img
-                src="/storage/images/categorias/logoMirador.jpeg"
+                src="/storage/images/categorias/logoGamer.jpeg"
                 alt=""
               >
             </v-avatar>
@@ -181,7 +181,7 @@
     </v-content> 
 
             <!-- <img
-                src="/storage/images/categorias/logoMirador3.jpeg"
+                src="/storage/images/categorias/logoGamer3.jpeg"
                 alt=""
               > -->
   </v-app>

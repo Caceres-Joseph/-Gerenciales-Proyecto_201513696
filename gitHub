@@ -61,7 +61,7 @@ npm install --save di-vue-mask vue-axios vue-router vuejs-logger vuetify
 "tabs__slider-wrapper"
 
 --MYSQL
-sudo /opt/lampp/bin/mysqldump -u root   --databases RestauranteMirador3 > /home/joseph/Documentos/dump.sql
+sudo /opt/lampp/bin/mysqldump -u root   --databases -Gamer3 > /home/joseph/Documentos/dump.sql
 mysql -u <user> -p < db_backup.dump
 
 --PARA APACHE
@@ -79,13 +79,13 @@ Listen 192.168.0.101:8000
 	# match this virtual host. For the default virtual host (this file) this
 	# value is not decisive as it is used as a last resort host regardless.
 	# However, you must set it for any further virtual host explicitly.
-	#ServerName www.mirador123.com 
+	#ServerName www.Gamer123.com 
     	ServerName test.com
 	ServerAlias www.test.com
 	ServerAdmin webmaster@localhost
-	DocumentRoot /var/www/html/resmirador/public
+	DocumentRoot /var/www/html/resGamer/public
 	
-	<Directory /var/www/html/resmirador/public>
+	<Directory /var/www/html/resGamer/public>
                 Options Indexes FollowSymLinks
                 AllowOverride All
                 Require all granted
@@ -97,12 +97,12 @@ java -jar leerLog.jar
 Hola a todos, este es un nuevo tutorial, y un nuevo comentario
 
 
-mysqldump -u root -p  --databases RestauranteMirador3 > /home/mirador-caja/Backups/17-06-2018.sql
+mysqldump -u root -p  --databases -Gamer3 > /home/Gamer-caja/Backups/17-06-2018.sql
 
-scp "24-06-2018.sql" joseph@192.168.0.111:/home/joseph/ElMirador/backup
+scp "24-06-2018.sql" joseph@192.168.0.111:/home/joseph/ElGamer/backup
 
 zip -r categorias.zip categorias
-scp "categorias.zip" joseph@192.168.0.111:/home/joseph/ElMirador/backup
+scp "categorias.zip" joseph@192.168.0.111:/home/joseph/ElGamer/backup
 
 //las tablas que hay que eliminar
 

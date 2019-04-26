@@ -7,7 +7,7 @@
     <link href="{{asset('Metro/metro/css/metro-all.css?ver=@@b-version')}}" rel="stylesheet">
     <link href="{{asset('Metro/start.css')}}" rel="stylesheet">
 
-    <title> El Mirador</title>
+    <title> El Gamer</title>
 
     <style>
         body {
@@ -17,7 +17,7 @@
 </head>
 <body class=" fg-black h-vh-100 m4-cloak">
 
-<h1><a href="/login"> Restaurante <span> El Mirador</span></a></h1>
+<h1><a href="/login"> - <span> El Gamer</span></a></h1>
 <div class="container-fluid start-screen h-100">
 
     <div class="tiles-area clear">

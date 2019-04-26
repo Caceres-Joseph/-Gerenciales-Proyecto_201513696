@@ -128,7 +128,7 @@
                     </v-layout>
                 </v-card>
             </v-menu>
-            <span class="headline">RESTAURANTE MIRADOR --BIENVENIDOS--</span>
+            <span class="headline">- Gamer --BIENVENIDOS--</span>
 
             <v-card-text>
 
@@ -182,7 +182,7 @@
                                         </v-flex>
                                         <!-- <v-flex xs5>
                                           <v-card-media
-                                            src="/storage/images/categorias/logoMirador.jpeg"
+                                            src="/storage/images/categorias/logoGamer.jpeg"
                                             height="125px"
                                             contain
                                           ></v-card-media>

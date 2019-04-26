@@ -419,7 +419,7 @@ class pdf_Cierre
         $segundaSuma = number_format($tarjetas + $gasto + $efectivoActual, 2);
 
 
-        $retorno[] = "             RESTAURANTE EL MIRADOR";
+        $retorno[] = "             - EL MIRADOR";
         $retorno[] = "          === CONSTANCIA DE CIERRE ===";
         $retorno[] = $this->col->escribirDosColumnas("ID CAJA:" . $idCaja, "CAJERO:" . $datosCierre->encargado);
         $retorno[] = "   ";
@@ -506,7 +506,7 @@ class pdf_Cierre
             ->first();
 
 
-        $retorno[] = "             RESTAURANTE EL MIRADOR";
+        $retorno[] = "             - EL MIRADOR";
         $retorno[] = "            === ABONOS DETALLADOS===  ";
         $retorno[] = $this->col->escribirDosColumnas($fecha, $hora);
         $retorno[] = $this->col->escribirDosColumnas("ID CAJA:" . $idCaja, "CAJERO:" . $nombreUsuario->nombreUsuario);
@@ -559,7 +559,7 @@ class pdf_Cierre
             ->first();
 
 
-        $retorno[] = "             RESTAURANTE EL MIRADOR";
+        $retorno[] = "             - EL MIRADOR";
         $retorno[] = "            === GASTOS DETALLADOS===";
         $retorno[] = $this->col->escribirDosColumnas($fecha, $hora);
         $retorno[] = $this->col->escribirDosColumnas("ID CAJA:" . $idCaja, "CAJERO:" . $nombreUsuario->nombreUsuario);
@@ -623,7 +623,7 @@ class pdf_Cierre
             ->first();
 
 
-        $retorno[] = "            RESTAURANTE  EL MIRADOR";
+        $retorno[] = "            -  EL MIRADOR";
         $retorno[] = "           === VENTAS DETALLADAS ===";
         $retorno[] = $this->col->escribirDosColumnas($fecha, $hora);
         $retorno[] = $this->col->escribirDosColumnas("ID CAJA:" . $idCaja, "CAJERO:" . $nombreUsuario->nombreUsuario);
@@ -694,7 +694,7 @@ class pdf_Cierre
         }
 
 
-        $retorno[] = "               Restaurante El Mirador";
+        $retorno[] = "               - El Mirador";
         $retorno[] = "             == REIMPRESION DE ORDEN ===";
         $retorno[] = $tiempo;
 

@@ -1,84 +1,84 @@
-CREATE DATABASE RestauranteMirador5;
-USE RestauranteMirador5;
+CREATE DATABASE -Gamer5;
+USE -Gamer5;
 
 INSERT INTO lugar_servirs  
 SELECT *
-FROM RestauranteMirador4.lugar_servirs;
+FROM -Gamer4.lugar_servirs;
 
 INSERT INTO medidas  
 SELECT *
-FROM RestauranteMirador4.medidas;
+FROM -Gamer4.medidas;
 
 INSERT INTO categorias  
 SELECT *
-FROM RestauranteMirador4.categorias;
+FROM -Gamer4.categorias;
 
 INSERT INTO articulos  
 SELECT *
-FROM RestauranteMirador4.articulos;
+FROM -Gamer4.articulos;
 
 INSERT INTO articulo_detalles  
 SELECT *
-FROM RestauranteMirador4.articulo_detalles;
+FROM -Gamer4.articulo_detalles;
 
 INSERT INTO rols  
 SELECT *
-FROM RestauranteMirador4.rols;
+FROM -Gamer4.rols;
 
 INSERT INTO personas  
 SELECT *
-FROM RestauranteMirador4.personas;
+FROM -Gamer4.personas;
 
 INSERT INTO usuarios  
 SELECT *
-FROM RestauranteMirador4.usuarios;
+FROM -Gamer4.usuarios;
 
 INSERT INTO lugars  
 SELECT *
-FROM RestauranteMirador4.lugars;
+FROM -Gamer4.lugars;
 
 INSERT INTO mesa_sillas  
 SELECT *
-FROM RestauranteMirador4.mesa_sillas;
+FROM -Gamer4.mesa_sillas;
 
 INSERT INTO mesas  
 SELECT *
-FROM RestauranteMirador4.mesas;
+FROM -Gamer4.mesas;
 
  
 INSERT INTO ordens (idOrden,idMesa,idUsuario,subTotal,propina,total,observacion,cancelada,estado,created_at,updated_at) 
 SELECT idOrden,idMesa,idUsuario,subTotal,propina,total,observacion,cancelada,estado,created_at,updated_at
-FROM RestauranteMirador4.ordens;
+FROM -Gamer4.ordens;
 
 
 INSERT INTO detalle_ordens  
 SELECT *
-FROM RestauranteMirador4.detalle_ordens;
+FROM -Gamer4.detalle_ordens;
 
 INSERT INTO detalle_orden_individuals  
 SELECT *
-FROM RestauranteMirador4.detalle_orden_individuals;
+FROM -Gamer4.detalle_orden_individuals;
 
 INSERT INTO observacions  
 SELECT *
-FROM RestauranteMirador4.observacions;
+FROM -Gamer4.observacions;
 
 INSERT INTO cajas  
 SELECT *
-FROM RestauranteMirador4.cajas;
+FROM -Gamer4.cajas;
 
 INSERT INTO constancia_pagos  
 SELECT *
-FROM RestauranteMirador4.constancia_pagos;
+FROM -Gamer4.constancia_pagos;
 
 INSERT INTO abonos  
 SELECT *
-FROM RestauranteMirador4.abonos;
+FROM -Gamer4.abonos;
 
 INSERT INTO gastos  
 SELECT *
-FROM RestauranteMirador4.gastos;
+FROM -Gamer4.gastos;
 
 INSERT INTO cortesias  
 SELECT *
-FROM RestauranteMirador4.cortesias;
+FROM -Gamer4.cortesias;

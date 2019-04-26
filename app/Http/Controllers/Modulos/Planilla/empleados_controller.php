@@ -84,7 +84,7 @@ class empleados_controller extends Controller
         $items = json_decode($this->getAsistencia($request)->getContent());
 
         $titulo0 = $this->lineas->Indice_UnaColumna(
-            2, 48, "RESTAURANTE EL MIRADOR"
+            2, 48, "- EL Gamer"
         );
         $titulo1 = $this->lineas->Indice_UnaColumna(
             2, 48, "== IMPRESIÓN DE ASISTENCIA ==="

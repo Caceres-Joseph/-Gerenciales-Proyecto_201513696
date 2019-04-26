@@ -4,19 +4,19 @@ export default {
         cards: [
             /* {
               title: 'Primer Nivel',
-              src: '/storage/images/categorias/logoMirador.jpeg',
+              src: '/storage/images/categorias/logoGamer.jpeg',
               flex: 4,
               color: "light-blue darken-3"
             },
             {
               title: 'Segundo Nivel',
-              src: '/storage/images/categorias/logoMirador.jpeg',
+              src: '/storage/images/categorias/logoGamer.jpeg',
               flex: 4,
               color: "orange darken-3"
             },
             {
               title: 'Tercer Nivel',
-              src: '/storage/images/categorias/logoMirador.jpeg',
+              src: '/storage/images/categorias/logoGamer.jpeg',
               flex: 4,
               color: "teal darken-3"
             } */

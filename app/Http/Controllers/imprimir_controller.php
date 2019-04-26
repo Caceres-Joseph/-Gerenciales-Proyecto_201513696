@@ -52,7 +52,7 @@ class imprimir_controller extends Controller
         $nameFile = "Ordenes/" . $file;
         $myfile = fopen($nameFile, "w") or die("Unable to open file!");
         //error_log(date("H"));
-        $txt = "   Restaurante El Mirador\n";
+        $txt = "   - El Gamer\n";
         fwrite($myfile, $txt);
 
         $txt = "Fecha: " . $tiempo . "\n"; //FECHA: [17-05-2018]05:38:43
@@ -389,7 +389,7 @@ class imprimir_controller extends Controller
 
         $myfile2 = new Printer($connector);
 
-        $this->writeLnFilePrinter($myfile2, "               Restaurante El Mirador"); //error_log("      === BARRA ===");
+        $this->writeLnFilePrinter($myfile2, "               - El Gamer"); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($myfile2, "ORDEN: #" . $orden->idOrden);
         $this->writeLnFilePrinter($myfile2, $tiempo);
         $this->writeLnFilePrinter($myfile2, $orden->nombreLugar);
@@ -484,7 +484,7 @@ class imprimir_controller extends Controller
 
         $myfile2 = new Printer($connector);
 
-        $this->writeLnFilePrinter($myfile2, "               Restaurante El Mirador"); //error_log("
+        $this->writeLnFilePrinter($myfile2, "               - El Gamer"); //error_log("
         $this->writeLnFilePrinter($myfile2, "             == REIMPRESION DE ORDEN ==="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($myfile2, $tiempo);
 
@@ -578,7 +578,7 @@ class imprimir_controller extends Controller
 
         $myfile2 = new Printer($connector);
 
-        $this->writeLnFilePrinter($myfile2, "               Restaurante El Mirador"); //error_log("      === BARRA ===");
+        $this->writeLnFilePrinter($myfile2, "               - El Gamer"); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($myfile2, "             **CONSTANCIA DE CORTESIA**");
         $this->writeLnFilePrinter($myfile2, "ORDEN: #" . $orden->idOrden);
         $this->writeLnFilePrinter($myfile2, $tiempo);
@@ -622,7 +622,7 @@ class imprimir_controller extends Controller
         $myfile2->cut();
         /* Close printer */
 
-        $this->writeLnFilePrinter($myfile2, "               Restaurante El Mirador"); //error_log("      === BARRA ===");
+        $this->writeLnFilePrinter($myfile2, "               - El Gamer"); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($myfile2, "             ==CONSTANCIA DE CORTESIA==");
         $this->writeLnFilePrinter($myfile2, "ORDEN: #" . $orden->idOrden);
         $this->writeLnFilePrinter($myfile2, $tiempo);
@@ -742,7 +742,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
         $this->writeLnFilePrinter($impresora4, "            === ABONOS DETALLADOS===  ");
         $this->writeLnFilePrinter($impresora4, $this->escribirDosColumnas($fecha, $hora));
         $this->writeLnFilePrinter($impresora4, $this->escribirDosColumnas("ID CAJA:" . $cajas->idCaja, "CAJERO:" . $nombreUsuario->nombreUsuario));
@@ -810,7 +810,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "            RESTAURANTE  EL  MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "            -  EL  Gamer");
         $this->writeLnFilePrinter($impresora4, "            === GASTOS DETALLADOS===");
         $this->writeLnFilePrinter($impresora4, $this->escribirDosColumnas($fecha, $hora));
         $this->writeLnFilePrinter($impresora4, $this->escribirDosColumnas("ID CAJA:" . $cajas->idCaja, "CAJERO:" . $nombreUsuario->nombreUsuario));
@@ -886,7 +886,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "            RESTAURANTE  EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "            -  EL Gamer");
         $this->writeLnFilePrinter($impresora4, "           === VENTAS DETALLADAS ===");
         $this->writeLnFilePrinter($impresora4, $this->escribirDosColumnas($fecha, $hora));
         $this->writeLnFilePrinter($impresora4, $this->escribirDosColumnas("ID CAJA:" . $cajas->idCaja, "CAJERO:" . $nombreUsuario->nombreUsuario));
@@ -1071,7 +1071,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "            RESTAURANTE  EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "            -  EL Gamer");
         $this->writeLnFilePrinter($impresora4, "          === CONSTANCIA DE COBRO ==="); //error_log("      === BARRA ===");
         /* $this->writeLnFilePrinter($impresora4,"ORDEN: #".$orden->idOrden);//error_log("ORDEN: #".$orden->idOrden);
         $this->writeLnFilePrinter($impresora4,'Mesero: '.$orden->nombreUsuario);//error_log('Mesero: '.$orden->nombreUsuario);
@@ -1215,7 +1215,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
         $this->writeLnFilePrinter($impresora4, "          === CONSTANCIA DE CIERRE ==="); //error_log("      === BARRA ===");
 
         $this->writeLnFilePrinter($impresora4, $this->escribirDosColumnas($request->get('tFecha'), $request->get('tHora')));
@@ -1298,7 +1298,7 @@ class imprimir_controller extends Controller
         $impresora4 = new Printer($connector3);
         $Mesero = "";
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
         $this->writeLnFilePrinter($impresora4, "           === REPORTE DE PROPINA ==="); //error_log("      === BARRA ===");
 
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1355,7 +1355,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "          === REPORTE-STOCK BARRA ==="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1413,7 +1413,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "      === REPORTE-DEVOLUCIONES EN BARRA ==="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1451,7 +1451,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "  === REPORTE-PRODUCTOS IMPRESOS EN BARRA ==="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1488,7 +1488,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "  == REPORTE-PRODUCTOS NO IMPRESOS EN BARRA =="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1525,7 +1525,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "REPORTE-PRODUCTOS IMPRESOS ELIMINADOS EN BARRA"); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1562,7 +1562,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
         $this->writeLnFilePrinter($impresora4, "                     REPORTE        ");
         $this->writeLnFilePrinter($impresora4, "   PRODUCTOS NO IMPRESOS ELIMINADOS EN BARRA"); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1606,7 +1606,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "  === REPORTE-PRODUCTOS SERVIDOS EN BARRA ==="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1646,7 +1646,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "  === REPORTE-PRODUCTOS SERVIDOS EN COCINA ==="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);
@@ -1682,7 +1682,7 @@ class imprimir_controller extends Controller
         $connector3 = new CupsPrintConnector("EPSON_TM-T20II");
         $impresora4 = new Printer($connector3);
 
-        $this->writeLnFilePrinter($impresora4, "             RESTAURANTE EL MIRADOR");
+        $this->writeLnFilePrinter($impresora4, "             - EL Gamer");
 
         $this->writeLnFilePrinter($impresora4, "         ===  ORDENES DE CORTESIA ==="); //error_log("      === BARRA ===");
         $this->writeLnFilePrinter($impresora4, $tiempo);

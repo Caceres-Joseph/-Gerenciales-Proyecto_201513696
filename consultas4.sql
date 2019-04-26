@@ -1,118 +1,118 @@
-CREATE DATABASE RestauranteMirador8;
-USE RestauranteMirador8;
+CREATE DATABASE -Gamer8;
+USE -Gamer8;
 
 INSERT INTO lugar_servirs  
 SELECT *
-FROM RestauranteMirador7.lugar_servirs;
+FROM -Gamer7.lugar_servirs;
 
 INSERT INTO medidas  
 SELECT *
-FROM RestauranteMirador7.medidas;
+FROM -Gamer7.medidas;
 
 INSERT INTO categorias  
 SELECT *
-FROM RestauranteMirador7.categorias;
+FROM -Gamer7.categorias;
 
 INSERT INTO articulos  
 SELECT *
-FROM RestauranteMirador7.articulos;
+FROM -Gamer7.articulos;
 
 INSERT INTO articulo_detalles  
 SELECT *
-FROM RestauranteMirador7.articulo_detalles;
+FROM -Gamer7.articulo_detalles;
 
 INSERT INTO rols  
 SELECT *
-FROM RestauranteMirador7.rols;
+FROM -Gamer7.rols;
 
 INSERT INTO personas  
 SELECT *
-FROM RestauranteMirador7.personas;
+FROM -Gamer7.personas;
 
 INSERT INTO usuarios  
 SELECT *
-FROM RestauranteMirador7.usuarios;
+FROM -Gamer7.usuarios;
 
 INSERT INTO lugars  
 SELECT *
-FROM RestauranteMirador7.lugars;
+FROM -Gamer7.lugars;
 
 INSERT INTO mesa_sillas  
 SELECT *
-FROM RestauranteMirador7.mesa_sillas;
+FROM -Gamer7.mesa_sillas;
 
 INSERT INTO mesas  
 SELECT *
-FROM RestauranteMirador7.mesas;
+FROM -Gamer7.mesas;
 
 
 INSERT INTO ordens  
 SELECT *
-FROM RestauranteMirador7.ordens;
+FROM -Gamer7.ordens;
 
 
 INSERT INTO detalle_ordens  
 SELECT *
-FROM RestauranteMirador7.detalle_ordens;
+FROM -Gamer7.detalle_ordens;
 
 INSERT INTO detalle_orden_individuals  
 SELECT *
-FROM RestauranteMirador7.detalle_orden_individuals;
+FROM -Gamer7.detalle_orden_individuals;
 
 INSERT INTO observacions  
 SELECT *
-FROM RestauranteMirador7.observacions;
+FROM -Gamer7.observacions;
 
 INSERT INTO cajas  
 SELECT *
-FROM RestauranteMirador7.cajas;
+FROM -Gamer7.cajas;
 
 INSERT INTO constancia_pagos  
 SELECT *
-FROM RestauranteMirador7.constancia_pagos;
+FROM -Gamer7.constancia_pagos;
 
 INSERT INTO abonos  
 SELECT *
-FROM RestauranteMirador7.abonos;
+FROM -Gamer7.abonos;
 
 INSERT INTO gastos  
 SELECT *
-FROM RestauranteMirador7.gastos;
+FROM -Gamer7.gastos;
 
 INSERT INTO cortesias  
 SELECT *
-FROM RestauranteMirador7.cortesias;
+FROM -Gamer7.cortesias;
 
 INSERT INTO cuarentenas  
 SELECT *
-FROM RestauranteMirador7.cuarentenas;
+FROM -Gamer7.cuarentenas;
 
 
 INSERT INTO bodega_ingresos(comprobante,numComprobante,fechaComprobante,total,idProveedor,idPersona,estado,created_at,updated_at)  
 SELECT comprobante,numComprobante,fechaComprobante,total,idProveedor,idPersona,estado,created_at,updated_at
-FROM RestauranteMirador7.bodega_ingresos;
+FROM -Gamer7.bodega_ingresos;
 
 INSERT INTO ingreso_detalles
 SELECT *
-FROM RestauranteMirador7.ingreso_detalles;
+FROM -Gamer7.ingreso_detalles;
 
 INSERT INTO ingrediente_detalles
 SELECT *
-FROM RestauranteMirador7.ingrediente_detalles;
+FROM -Gamer7.ingrediente_detalles;
  
 
 INSERT INTO inventarios
 SELECT *
-FROM RestauranteMirador7.inventarios;
+FROM -Gamer7.inventarios;
 
 
 INSERT INTO inventario_detalles
 SELECT *
-FROM RestauranteMirador7.inventario_detalles;
+FROM -Gamer7.inventario_detalles;
 
 
 
 
 INSERT INTO stock_historials
 SELECT *
-FROM RestauranteMirador7.stock_historials;
+FROM -Gamer7.stock_historials;

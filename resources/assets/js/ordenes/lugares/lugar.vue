@@ -48,7 +48,7 @@
                                     </v-flex>
                                     <!-- <v-flex xs5>
                                       <v-card-media
-                                        src="/storage/images/categorias/logoMirador.jpeg"
+                                        src="/storage/images/categorias/logoGamer.jpeg"
                                         height="125px"
                                         contain
                                       ></v-card-media>

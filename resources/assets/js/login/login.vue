@@ -7,7 +7,7 @@
           <v-flex xs12 sm8 md8>
             <v-card class="elevation-21"  >
               <v-toolbar dark color="light-blue darken-4">
-                <v-toolbar-title>El Mirador</v-toolbar-title>
+                <v-toolbar-title>El Gamer</v-toolbar-title>
                 <v-spacer></v-spacer> 
               </v-toolbar>
               <v-card-text>

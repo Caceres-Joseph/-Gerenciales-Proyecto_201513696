@@ -682,7 +682,7 @@ export default {
     },
 
     clckPasswordAceptar() {
-      if (!(this.txtPassword == "Mirador201617")) {
+      if (!(this.txtPassword == "Gamer201617")) {
         
         this.mensajeError("Contraseña incorrecta"); 
       } else {

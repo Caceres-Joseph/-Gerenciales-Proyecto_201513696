@@ -74,7 +74,7 @@
                 <v-avatar class="mr-3" size="40px" slot="activator">
                     <img
                             alt=""
-                            src="/storage/images/categorias/logoMirador.jpeg"
+                            src="/storage/images/categorias/logoGamer.jpeg"
                     >
                 </v-avatar>
                 <v-list>

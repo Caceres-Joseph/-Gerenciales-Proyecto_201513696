@@ -7,7 +7,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
          
-        <title>El Mirador</title>
+        <title>El Gamer</title>
         
 		<link rel="stylesheet" type="text/css" href="{{asset('Bienvenido/css/default.css')}}" />
 		 <link rel="stylesheet" type="text/css" href="{{asset('Bienvenido/css/component.css')}}" />
@@ -24,7 +24,7 @@
 			<!-- Codrops top bar -->
  
 			<header>
-				<h1>Restaurante El Mirador <span>Menú de-opciones -</span></h1>
+				<h1>- El Gamer <span>Menú de-opciones -</span></h1>
 				<!-- {{ Session::get('rol') }} -->
 			</header>
 			<div class="main clearfix">

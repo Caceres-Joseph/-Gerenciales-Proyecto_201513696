@@ -4,7 +4,7 @@ export default {
         cards: [
             /* {
               title: 'Primer Nivel',
-              src: '/storage/images/categorias/logoMirador.jpeg',
+              src: '/storage/images/categorias/logoGamer.jpeg',
               flex: 4,
               color: "light-blue darken-3"
             }, */
@@ -171,7 +171,7 @@ export default {
         },
 
         clckPasswordAceptar() {
-            if (!(this.txtPassword == "Mirador201617")) {
+            if (!(this.txtPassword == "Gamer201617")) {
                 this.mensajeError("Contraseña incorrecta");
             } else {
                 if (this.accionPassword == "accDeleteGrupal") {

@@ -62,7 +62,7 @@ class ingresoImprimir_controller extends Controller
 
 
         $titulo0 = $this->lineas->Indice_UnaColumna(
-            2, 48, "RESTAURANTE EL MIRADOR"
+            2, 48, "- EL Gamer"
         );
         $titulo1 = $this->lineas->Indice_UnaColumna(
             2, 48, "== IMPRESION INGRESO ==="
