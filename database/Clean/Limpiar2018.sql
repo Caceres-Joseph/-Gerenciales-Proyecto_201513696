@@ -1,0 +1,19 @@
+DELETE FROM cuarentenas
+WHERE  (created_at BETWEEN '2018-01-01 00:00:00' AND '2019-01-01 00:00:00');
+
+
+DELETE FROM cortesias
+WHERE  (created_at BETWEEN '2018-01-01 00:00:00' AND '2019-01-01 00:00:00');
+
+
+DELETE FROM constancia_pagos
+WHERE  (created_at BETWEEN '2018-01-01 00:00:00' AND '2019-02-01 00:00:00');
+
+
+
+DELETE FROM detalle_orden_individuals
+WHERE  (created_at BETWEEN '2018-01-01 00:00:00' AND '2019-01-01 00:00:00');
+
+
+DELETE FROM ordens
+WHERE  (created_at BETWEEN '2018-01-01 00:00:00' AND '2018-12-01 00:00:00');

@@ -1,0 +1,112 @@
+git add .
+git commit -m 'Desde el cliente'
+git push -u origin master
+Caceres-Joseph
+
+
+\*ELIMINANDO RAMA*/
+
+git branch -d dataBase 
+git push origin --delete dataBase
+
+
+\*NUEVA RAMA*/
+git checkout develop
+git checkout -b [name_of_your_new_branch]
+git checkout [name_of_your_new_branch]  
+git push origin [name_of_your_new_branch]
+ 
+ \*Si se elimino .git*/
+git clean  -d  -fx .
+
+
+git reset --hard  //descargar
+git pull --actualizar repositorio
+
+npm install vuetify --save
+npm install vue-router --save
+npm i di-vue-mask -S
+npm install --save-dev vue-axios
+npm install vue-logger --save
+npm install vuejs-logger --save-exact
+npm i --save @dattn/dnd-grid
+
+npm install material-design-icons --save
+
+npm install vue-tabs-component --save
+
+npm install vue-shortkey --save
+
+npm install mathjs --save
+
+npm install --save vuetify@1.0.17  vue-router  di-vue-mask  vue-axios vue-logger  vuejs-logger  @dattn/dnd-grid material-design-icons vue-tabs-component  vue-shortkey mathjs  vue-google-charts bp-vuejs-dropdown
+ 
+npm i -D bp-vuejs-dropdown
+//PrimerMedida
+INSERT INTO `medidas` (`idMedida`, `nombre`, `prefijo`, `estado`, `created_at`, `updated_at`) VALUES (NULL, '', '', '0', '2018-05-06 00:00:00', '2018-05-06 00:00:00');
+
+INSERT INTO `categorias` (`idCategoria`, `idCategoriaPadre`, `nombre`, `imagen`, `descripcion`, `estado`, `rutaPadre`, `created_at`, `updated_at`) VALUES (NULL, '0', '', '', NULL, '0', NULL, '2018-05-06 00:00:00', '2018-05-06 00:00:00');
+
+INSERT INTO `lugar_servirs` (`idLugarServir`, `nombre`, `estado`, `created_at`, `updated_at`) VALUES (NULL, '', '0', '2018-05-06 00:00:00', '2018-05-06 00:00:00');
+INSERT INTO `lugar_servirs` (`idLugarServir`, `nombre`, `estado`, `created_at`, `updated_at`) VALUES (NULL, 'Cocina', '1', '2018-05-06 00:00:00', '2018-05-06 00:00:00');
+INSERT INTO `lugar_servirs` (`idLugarServir`, `nombre`, `estado`, `created_at`, `updated_at`) VALUES (NULL, 'Barra', '1', '2018-05-06 00:00:00', '2018-05-06 00:00:00');
+
+//192.168.0.101:8000
+//php artisan migrate
+//php artisan serve --host 0.0.0.0
+
+php artisan storage:link
+
+npm install --save di-vue-mask vue-axios vue-router vuejs-logger vuetify
+"tabs__slider-wrapper"
+
+--MYSQL
+sudo /opt/lampp/bin/mysqldump -u root   --databases RestauranteMirador3 > /home/joseph/Documentos/dump.sql
+mysql -u <user> -p < db_backup.dump
+
+--PARA APACHE
+sudo mousepad /etc/apache2/sites-available/000-default.conf
+systemctl restart apache2
+
+
+Listen 192.168.0.101:8000
+<VirtualHost 192.168.0.101:8000>
+#<VirtualHost *:80>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.mirador123.com 
+    	ServerName test.com
+	ServerAlias www.test.com
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html/resmirador/public
+	
+	<Directory /var/www/html/resmirador/public>
+                Options Indexes FollowSymLinks
+                AllowOverride All
+                Require all granted
+        </Directory>
+
+
+java -jar leerLog.jar
+
+Hola a todos, este es un nuevo tutorial, y un nuevo comentario
+
+
+mysqldump -u root -p  --databases RestauranteMirador3 > /home/mirador-caja/Backups/17-06-2018.sql
+
+scp "24-06-2018.sql" joseph@192.168.0.111:/home/joseph/ElMirador/backup
+
+zip -r categorias.zip categorias
+scp "categorias.zip" joseph@192.168.0.111:/home/joseph/ElMirador/backup
+
+//las tablas que hay que eliminar
+
+DROP TABLE ingreso_detalles;
+DROP TABLE bodega_ingresos;
+DROP TABLE cortesias;
+DROP TABLE stock_articulos;

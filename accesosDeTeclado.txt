@@ -1,0 +1,135 @@
+====================================
++--------------------+
+|   GLOBALES         |
++--------------------+
+
+Nuevo abono  = ctrl + shift + a 
+Nuevo gasto  = ctrl + shift + g
+Nueva orden  = ctrl + shift + n
+Ordenes      = ctrl + shift + o
+Salones      = ctrl + shift + s
+
+
++--------------------+
+|   ORDENES          |
++--------------------+
+Buscar Orden   =  ctrl + f 
+                  tab
+                  #Orden
+
++--------------------+
+|   DETALLE ORDENES  |
++--------------------+
+Cobrar      =     ctrl + c
+
++--------------------+
+|   PAGO             |
++--------------------+
+Borrar      = supr
+Tarjeta     = ctrl + t
+Efectivo    = ctrl + e
+Auto Tarjeta= ctrl + l
+Listo       = enter
+Cortesia    = ctrl + s
+
+====================================
++--------------------+
+|   GLOBALES         |
++--------------------+
+
+Nuevo abono  = ctrl + shift + a 
+Nuevo gasto  = ctrl + shift + g
+Nueva orden  = ctrl + shift + n
+Ordenes      = ctrl + shift + o
+Salones      = ctrl + shift + s
+
+
++--------------------+
+|   ORDENES          |
++--------------------+
+Buscar Orden   =  ctrl + f 
+                  tab
+                  #Orden
+
++--------------------+
+|   DETALLE ORDENES  |
++--------------------+
+Cobrar      =     ctrl + c
+
++--------------------+
+|   PAGO             |
++--------------------+
+Borrar      = supr
+Tarjeta     = ctrl + t
+Efectivo    = ctrl + e
+Auto Tarjeta= ctrl + l
+Listo       = enter
+Cortesia    = ctrl + s
+====================================
++--------------------+
+|   GLOBALES         |
++--------------------+
+
+Nuevo abono  = ctrl + shift + a 
+Nuevo gasto  = ctrl + shift + g
+Nueva orden  = ctrl + shift + n
+Ordenes      = ctrl + shift + o
+Salones      = ctrl + shift + s
+
+
++--------------------+
+|   ORDENES          |
++--------------------+
+Buscar Orden   =  ctrl + f 
+                  tab
+                  #Orden
+
++--------------------+
+|   DETALLE ORDENES  |
++--------------------+
+Cobrar      =     ctrl + c
+
++--------------------+
+|   PAGO             |
++--------------------+
+Borrar      = supr
+Tarjeta     = ctrl + t
+Efectivo    = ctrl + e
+Auto Tarjeta= ctrl + l
+Listo       = enter
+Cortesia    = ctrl + s
+====================================
++--------------------+
+|   GLOBALES         |
++--------------------+
+
+Nuevo abono  = ctrl + shift + a 
+Nuevo gasto  = ctrl + shift + g
+Nueva orden  = ctrl + shift + n
+Ordenes      = ctrl + shift + o
+Salones      = ctrl + shift + s
+
+
++--------------------+
+|   ORDENES          |
++--------------------+
+Buscar Orden   =  ctrl + f 
+                  tab
+                  #Orden
+
++--------------------+
+|   DETALLE ORDENES  |
++--------------------+
+Cobrar      =     ctrl + c
+
++--------------------+
+|   PAGO             |
++--------------------+
+Borrar      = supr
+Tarjeta     = ctrl + t
+Efectivo    = ctrl + e
+Auto Tarjeta= ctrl + l
+Listo       = enter
+Cortesia    = ctrl + s
+
+                   

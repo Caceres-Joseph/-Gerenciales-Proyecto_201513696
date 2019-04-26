@@ -1,0 +1,20 @@
+   Restaurante El Mirador
+Fecha: [22-05-2018]09:09:20
+No.Orden 123123
+Mesero:Luis
+Mesa:23
+Salon:Primer Nivel
+Can.Producto P.Unit P.total
+----------------------------
+2  Huevos    999.00 99999.00 
+999Queso      12.00    12.00
+----------------------------
+Sub Total              99.00
+Propina sug.10%        12.00
+Total                 100.00
+
+Nombre_____________________
+
+Nit________________________
+
+** Esto no es una factura **

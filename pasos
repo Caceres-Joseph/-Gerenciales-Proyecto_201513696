@@ -1,0 +1,68 @@
+Pasos.txt
+1.//creando el modelo
+php artisan make:model Medida -m
+
+2.Modificar las columnas del modelo
+
+3.//esto pasa el modelo a la base de datos
+php artisan migrate 
+
+4.//creando el controlador
+php artisan make:controller MedidaController --resource
+php artisan make:controller Modulos/Utensilios/ingreso_controller
+
+
+5.//importar el modelo al controlador
+use App\Medida;
+
+7.//Crear  los campos del modelo
+protected $fillable = ['idMedida', 'nombre','prefijo','estado'];
+
+7.//crear las vistas
+8.//crear los metodos en los controladores
+9.//agregar el metodo a las rutas ya sea post o get
+
+
+php artisan migrate:refresh 
+php artisan serve --host 0.0.0.0
+
+
+php artisan migrate:refresh --step=1
+
+//Despues de modificar  manualmente el nombre
+de un modelo, jejejej
+php artisan clear-compiled 
+composer dump-autoload
+php artisan optimize
+
+
+php artisan migrate:refresh --path=/database/migrations/CreateBodegaIngresosTable
+/*  
+BUGS :( 
+*/
+
+
+/*
+*********************
+ARTICULO-NUEVO-SUBRODUCTO
+*********************
+ */
+colocar repetido antes ej
+
+npm install --save @dattn/dnd-grid  di-vue-mask  vue-axios vue-router vuejs-logger vuetify  
+
+npm install --save @dattn/dnd-grid @dattn/dnd-grid/dist/dnd-grid.css di-vue-mask material-design-icons/iconfont/material-icons.css vue-axios vue-router vuejs-logger vuetify vuetify/dist/vuetify.css vuetify/es5/util/colors
+
+composer require anouar/fpdf
+
+npm install --save vue-google-charts 
+npm install vue-focus --save
+
+php artisan vendor:publish --provider="thiagoalessio\TesseractOCR\TesseractOCR"
+
+/*
+*********************
+ARTICULO-NUEVO-SUBRODUCTO
+*********************
+*/
+mysql -u root -p RestauranteMirador82 < 13-04-2019.sql

@@ -1,0 +1,11 @@
+Actualizar la fecha de orden cuando se elimina
+Merma=>perdida 
+
+mensaje de stock minimo -> 
+ganancias netas -> 
+top 10 -> 
+productos no vendidos 
+-> 
+descuentos
+
+bug->Ingreso, si el precio es cero no inserta bien cantidad

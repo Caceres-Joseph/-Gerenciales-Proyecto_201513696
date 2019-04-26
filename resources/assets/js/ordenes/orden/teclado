@@ -1,0 +1,368 @@
+                  <!-- TECLADO -->
+                  <!-- <v-flex xs12 sm6 >
+                    <v-card color="blue-grey darken-3">
+                    <v-layout row wrap>
+
+                      <v-flex xs4  >
+                        <v-card ripple color="blue-grey darken-3" >
+                          <v-card-text >
+                            <div class="headline white--text text-xs-center ">1</div>
+                          </v-card-text>
+                        </v-card>
+                      </v-flex>
+                      <v-flex xs4 >
+                        <v-card ripple color="blue-grey darken-3">
+                          <v-card-text>
+                            <div class="headline white--text text-xs-center">2</div>
+                          </v-card-text>
+                        </v-card>              
+                      </v-flex>
+                      <v-flex xs4 >
+                        <v-card ripple color="blue-grey darken-3">
+                          <v-card-text>
+                            <div class="headline white--text text-xs-center">3</div>
+                          </v-card-text>
+                        </v-card>              
+                      </v-flex>
+                      <v-flex xs4  >
+                        <v-card ripple color="blue-grey darken-3" >
+                          <v-card-text >
+                            <div class="headline white--text text-xs-center">4</div>
+                          </v-card-text>
+                        </v-card>
+                      </v-flex>
+                      <v-flex xs4 >
+                        <v-card ripple color="blue-grey darken-3">
+                          <v-card-text>
+                            <div class="headline white--text text-xs-center">5</div>
+                          </v-card-text>
+                        </v-card>              
+                      </v-flex>
+                      <v-flex xs4 >
+                        <v-card ripple color="blue-grey darken-3">
+                          <v-card-text>
+                            <div class="headline white--text text-xs-center">6</div>
+                          </v-card-text>
+                        </v-card>              
+                      </v-flex>
+                      <v-flex xs4  >
+                        <v-card ripple color="blue-grey darken-3" >
+                          <v-card-text >
+                            <div class="headline white--text text-xs-center">7</div>
+                          </v-card-text>
+                        </v-card>
+                      </v-flex>
+                      <v-flex xs4 >
+                        <v-card ripple color="blue-grey darken-3">
+                          <v-card-text>
+                            <div class="headline white--text text-xs-center">8</div>
+                          </v-card-text>
+                        </v-card>              
+                      </v-flex>
+                      <v-flex xs4 >
+                        <v-card ripple color="blue-grey darken-3">
+                          <v-card-text>
+                            <div class="headline white--text text-xs-center">9</div>
+                          </v-card-text>
+                        </v-card>              
+                      </v-flex>
+                    </v-layout>
+                    </v-card>
+                  </v-flex>   
+                  
+                  
+                  
+                  -->
+
+
+
+
+/*
+          <v-flex xs12 sm6 >
+            <v-card color ="grey lighten-3">
+              <v-btn-toggle   mandatory  >
+                <v-layout row wrap>
+                  <v-flex xs12>
+                      <v-btn large  dark  flat  color="gray" >
+                        <div class="body-2 white--text" >1</div><div class="display-1 black--text">1</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                      <v-btn large     flat >
+                        <div class="body-2 white--text" >1</div><div class="display-1 black--text">2</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                      <v-btn large     flat >
+                        <div class="body-2 white--text" >1</div><div class="display-1 black--text">3</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                  </v-flex>
+                  <br>
+                  <v-flex xs12>
+                      <v-btn large     flat>
+                        <div class="body-2 white--text" >1</div><div class="display-1 black--text">4</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                      <v-btn large     flat >
+                        <div class="body-2 white--text" >1</div><div class="display-1 black--text">5</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                      <v-btn large      flat >
+                        <div class="body-2 white--text" >1</div><div class="display-1 black--text">6</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                  </v-flex>
+                  <v-flex xs12>
+                      <v-btn large     flat >
+                        <div class="body-2 white--text" >1</div><div class="headline black--text">7</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                      <v-btn large     flat >
+                        <div class="body-2 white--text" >1</div><div class="headline black--text">8</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                      <v-btn large      flat >
+                        <div class="body-2 white--text" >1</div><div class="headline black--text">9</div><div class="body-2 white--text" >1</div>
+                      </v-btn> 
+                  </v-flex> 
+                </v-layout>
+              </v-btn-toggle>          
+            </v-card>
+
+          </v-flex> 
+          
+          
+          */
+
+
+
+
+
+
+
+
+         {
+           value: false,
+           name: 'Ice cream ',
+           calories: 237,
+           fat: 9.0,
+           carbs: 37,
+           protein: 4.3,
+           sodium: 129,
+           calcium: '8%',
+           iron: '1%'
+         },
+         {
+           value: false,
+           name: 'Eclair',
+           calories: 262,
+           fat: 16.0,
+           carbs: 23,
+           protein: 6.0,
+           sodium: 337,
+           calcium: '6%',
+           iron: '7%'
+         },
+         {
+           value: false,
+           name: 'Cupcake',
+           calories: 305,
+           fat: 3.7,
+           carbs: 67,
+           protein: 4.3,
+           sodium: 413,
+           calcium: '3%',
+           iron: '8%'
+         },
+         {
+           value: false,
+           name: 'Gingerbread',
+           calories: 356,
+           fat: 16.0,
+           carbs: 49,
+           protein: 3.9,
+           sodium: 327,
+           calcium: '7%',
+           iron: '16%'
+         },
+         {
+           value: false,
+           name: 'Jelly bean',
+           calories: 375,
+           fat: 0.0,
+           carbs: 94,
+           protein: 0.0,
+           sodium: 50,
+           calcium: '0%',
+           iron: '0%'
+         },
+         {
+           value: false,
+           name: 'Lollipop',
+           calories: 392,
+           fat: 0.2,
+           carbs: 98,
+           protein: 0,
+           sodium: 38,
+           calcium: '0%',
+           iron: '2%'
+         },
+         {
+           value: false,
+           name: 'Honeycomb',
+           calories: 408,
+           fat: 3.2,
+           carbs: 87,
+           protein: 6.5,
+           sodium: 562,
+           calcium: '0%',
+           iron: '45%'
+         },
+         {
+           value: false,
+           name: 'Donut',
+           calories: 452,
+           fat: 25.0,
+           carbs: 51,
+           protein: 4.9,
+           sodium: 326,
+           calcium: '2%',
+           iron: '22%'
+         },
+         {
+           value: false,
+           name: 'KitKat',
+           calories: 518,
+           fat: 26.0,
+           carbs: 65,
+           protein: 7,
+           sodium: 54,
+           calcium: '12%',
+           iron: '6%'
+         }
+
+
+
+
+
+
+
+
+
+
+
+                <v-tabs
+                    v-model="tabModel"
+                    color="teal darken-3"
+                    dark
+                    slider-color="amber accent-4"
+                    disabled
+                  >
+        <!--        
+              |- - - - - - - - - - - - 
+              | CUENTA
+              |- - - - - - - - - - - - 
+            -->       
+
+
+                    <v-tab  :ripple="false"
+                    > 
+                    Orden
+                    </v-tab>
+                    <v-tab-item :transition="false"
+                    :reverse-transition="false"
+                    > 
+                   
+                <v-data-table
+                  :headers="headersCuenta" 
+                  class="elevation-1" 
+                  :disable-initial-sort="true"
+                  :items="arrayCuenta" 
+                  hide-actions
+                >
+                  <template slot="items" slot-scope="props">
+                    <td class="text-xs-left">{{ props.item.cantidad }}</td> 
+                    <td class="text-xs-left">{{ props.item.producto }}</td> 
+                    <td class="text-xs-left">{{ props.item.precio_unitario }}</td> 
+                    <td class="text-xs-left">{{ props.item.precio_total }}</td> 
+                    <td class="justify-center layout px-0"> 
+                      <!-- <v-btn icon class="mx-0" @click="editItem(props.item)">
+                        <v-icon color="teal">edit</v-icon>
+                      </v-btn> -->
+                      <v-btn icon class="mx-0" @click="accObservacion(props.item)">
+                        <v-icon color="light-blue darken-4">send</v-icon>
+                      </v-btn>
+                      <!-- <v-btn icon class="mx-0" @click="accDelete(props.item)">
+                        <v-icon color="pink">delete</v-icon>
+                      </v-btn>
+                      <v-btn icon class="mx-0" @click="accDecrement(props.item)">
+                        <v-icon color="blue-grey darken-3">remove_circle</v-icon>
+                      </v-btn> -->
+                      <v-btn icon class="mx-0" @click="accIncrement(props.item)">
+                        <v-icon color="blue-grey darken-3">add_circle</v-icon>
+                      </v-btn> 
+                      <!-- <v-checkbox  v-model="props.item.impreso" @change="checkCambioItem"></v-checkbox> -->
+                    </td>
+                    <td class="text-xs-left">{{ props.item.observacion }}</td> 
+                  </template>  
+                  <template slot="no-data">
+                    <v-btn  flat > </v-btn>
+                  </template>
+                </v-data-table>            
+              </v-tab-item>
+
+            <!--        
+              |- - - - - - - - - - - - 
+              | INDIVIDUAL
+              |- - - - - - - - - - - - 
+            -->         
+            <v-tab  :ripple="false"
+                    >
+                      Individual 
+                    </v-tab>
+                    <v-tab-item :transition="false"
+                    :reverse-transition="false" 
+                    >
+               <v-data-table
+                  :headers="headersCuentaIndividual" 
+                  class="elevation-1" 
+                  :disable-initial-sort="true"
+                  :items="arrayCuentaIndividual" 
+                  hide-actions
+                >
+                  <template slot="items" slot-scope="props">
+                    <td class="text-xs-left">{{ props.item.nombre }}</td> 
+                    <td class="text-xs-left">{{ props.item.precio }}</td> 
+                    <td class="text-xs-left">{{ props.item.descuento }}</td>  
+                    <td class="justify-center layout px-0">  
+
+                      <v-btn icon class="mx-0" @click="accObservacion(props.item)">
+                        <v-icon color="light-blue darken-4">send</v-icon>
+                      </v-btn>
+                     
+                    </td>
+                    <td class="text-xs-left">{{ props.item.observacionGrupal }},{{ props.item.observacion }}</td> 
+                  </template>  
+                  <template slot="no-data">
+                    <v-btn  flat > </v-btn>
+                  </template>
+                </v-data-table>       
+                    </v-tab-item>
+                  <v-tab  :ripple="false" disabled 
+                    >
+                      calc 
+                    </v-tab>
+            <!--        
+              |- - - - - - - - - - - - 
+              | ENTRADA CALCU
+              |- - - - - - - - - - - - 
+            -->    
+                    <v-tab-item :transition="false"
+                    :reverse-transition="false"
+                    > 
+                    <v-card color ="blue-grey darken-3" >
+
+                      <span class="headline white--text text-xs-center ">{{this.modelEntradaCalculadora}}</span>
+                      <!-- <v-flex xs12>
+                          <v-text-field
+                            v-model="modelEntradaCalculadora"
+                            label="Cantidad"    
+                            box
+                            disabled
+                            class="title"
+                          ></v-text-field>
+                        </v-flex> -->
+                    </v-card>
+                    </v-tab-item>
+                  </v-tabs>         
