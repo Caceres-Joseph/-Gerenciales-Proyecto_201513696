@@ -21,78 +21,35 @@
 <div class="container-fluid start-screen h-100">
 
     <div class="tiles-area clear">
-        <div class="tiles-grid tiles-group size-2 fg-gray" data-group-title="Principal">
-
-            @if(Session::get('rol')!="Meseros")
+        <div class="tiles-grid tiles-group size-2 fg-gray" data-group-title="Modulos">
+ 
                 <a href="/home" data-role="tile" class="bg-cyan fg-white">
                     <span class="mif-list2 icon"></span>
-                    <span class="branding-bar">Productos</span>
-                </a>
-            @endif
-            @if((Session::get('rol')!="Meseros") && (Session::get('rol')!="Bodeguero"))
-                <a href="/mesas" data-role="tile" class="bg-orange fg-white">
+                    <span class="branding-bar">Invetario</span>
+                </a> 
+
+                <!-- <a href="/mesas" data-role="tile" class="bg-orange fg-white">
                     <span class="mif-layers icon"></span>
-                    <span class="branding-bar">Mesas</span>
+                    <span class="branding-bar">Sucursales</span>
+                </a> -->
+
+                <a href="/cobrar" data-role="tile" class="bg-orange fg-white">
+                    <span class="mif-dollar2 icon"></span>
+                    <span class="branding-bar">Finanzas</span>
                 </a>
-            @endif
-            @if(Session::get('rol')=="Administradores")
                 <a href="/peoples" data-role="tile" class="bg-green fg-white">
                     <span class="mif-users icon"></span>
-                    <span class="branding-bar">Personas</span>
-                </a>
-            @endif
-        </div>
-
-        <div class="tiles-grid tiles-group size-2 fg-gray" data-group-title="Administrativo ">
-
-            @if((Session::get('rol')!="Meseros")&& (Session::get('rol')!="Bodeguero"))
-                <a href="/cobrar" data-role="tile" class="bg-red fg-white">
-                    <span class="mif-dollar2 icon"></span>
-                    <span class="branding-bar">Caja</span>
-                </a>
-            @endif
-
-            @if((Session::get('rol')!="Meseros")&& (Session::get('rol')!="Bodeguero"))
-                <a href="/reporte" data-role="tile" class="bg-blue fg-white">
-                    <span class="mif-chart-bars icon"></span>
-                    <span class="branding-bar">Reportes</span>
+                    <span class="branding-bar">RRHH</span>
                 </a>
 
-            @endif
-            @if((Session::get('rol')=="Meseros")||(Session::get('rol')=="Administradores"))
-                <a href="/ordenes" data-role="tile" class="bg-brown fg-white">
-                    <span class="mif-cart icon"></span>
-                    <span class="branding-bar">Ordenes</span>
-                </a>
-            @endif
-
-        </div>
-
-        <div class="tiles-grid tiles-group size-2 fg-gray" data-group-title="Utensilios">
-
-
-            @if((Session::get('rol')!="Meseros")&& (Session::get('rol')!="Bodeguero"))
-                <a href="/utensilios" data-role="tile" class="bg-orange fg-white">
-                    <span class="mif-spoon-fork icon"></span>
-                    <span class="branding-bar">Utensilios</span>
-                </a>
-
-            @endif
-            @if((Session::get('rol')!="Meseros")&& (Session::get('rol')!="Bodeguero"))
-                <a href="/proveedores" data-role="tile" class="bg-green fg-white">
+                <a href="/proveedores" data-role="tile" class="bg-brown fg-white">
                     <span class="mif-profile icon"></span>
-                    <span class="branding-bar">Proveedores</span>
+                    <span class="branding-bar">Compras</span>
                 </a>
-            @endif
-
-            @if((Session::get('rol')!="Meseros")&& (Session::get('rol')!="Bodeguero"))
-                <a href="/planilla" data-role="tile" class="bg-green fg-white">
-                    <span class="mif-profile icon"></span>
-                    <span class="branding-bar">Planilla</span>
-                </a>
-            @endif
 
         </div>
+ 
+
 
     </div>
 

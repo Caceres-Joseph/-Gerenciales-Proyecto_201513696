@@ -31,7 +31,7 @@
       fSubmodulos:[],
       fAtajos:[],
       fChip:{
-        nombre:"Lugar/Mesa",
+        nombre:"Sucursales",
         icono:"layers"
       }
 
@@ -64,8 +64,8 @@
       getEncabezado() {
         var submodulos = new submodulo(this.$router);
 
-        submodulos.tituloSimple("Lugares","/mesas/lugar", "KeyG", "CTRL + ALT + G")
-        submodulos.tituloSimple("Mesas","/mesas/mesa", "KeyM","CTRL + ALT + M")
+        submodulos.tituloSimple("Sucursales","/mesas/lugar", "KeyG", "CTRL + ALT + G")
+        submodulos.tituloSimple("Ubicacion","/mesas/mesa", "KeyM","CTRL + ALT + M")
 
 
         this.fAtajos=submodulos.getAtajos();

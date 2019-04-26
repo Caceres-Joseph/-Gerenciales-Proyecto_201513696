@@ -103,6 +103,8 @@ class pdf_Cierre
     public function enviarIdCaja($idCaja)
     {
 
+        return ;
+
         $datoCaja=$this->validarIdCaja($idCaja);
 
         $local = storage_path('app') . "/";
@@ -164,7 +166,7 @@ class pdf_Cierre
 
         //ahora el envio del correo
         //Mail::to('josephccaceres@gmail.com')->send(new mail_cierreCaja($envio));
-        Mail::to('restmiradortecpan@gmail.com')->send(new mail_cierreCaja($envio));
+        //Mail::to('restmiradortecpan@gmail.com')->send(new mail_cierreCaja($envio));
 
     }
 

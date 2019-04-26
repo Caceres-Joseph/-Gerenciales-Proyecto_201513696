@@ -17,7 +17,7 @@
     <v-dialog v-model="dialogNuevo" max-width="500px">
       <v-card  >
         <v-card-title>
-          <span class="headline">Nueva Mesa</span>
+          <span class="headline">Nueva Ubicacion</span>
         </v-card-title>
         <v-card-text>
             <v-flex xs12>
@@ -50,7 +50,7 @@
     <v-dialog v-model="dialogModificar" max-width="500px">
       <v-card color ="grey lighten-3">
         <v-card-title>
-          <span class="headline">Modificar Mesa</span>
+          <span class="headline">Modificar Ubicacion</span>
         </v-card-title>
         <v-card-text>
             <v-flex xs12>

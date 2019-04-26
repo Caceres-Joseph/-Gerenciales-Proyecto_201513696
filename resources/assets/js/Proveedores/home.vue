@@ -31,7 +31,7 @@
             fSubmodulos:[],
             fAtajos:[],
             fChip:{
-                nombre:"Proveedores",
+                nombre:"Compras",
                 icono:"perm_identity"
             }
 
@@ -64,8 +64,9 @@
             getEncabezado() {
                 var submodulos = new submodulo(this.$router);
 
-                submodulos.tituloSimple("Proveedores","/proveedores/articulo", "KeyO", "CTRL + ALT + O")
-                submodulos.tituloSimple("Deudas","/proveedores/articulo2", "KeyI","CTRL + ALT + I")
+                submodulos.tituloSimple("Proveedores","/proveedores/articulo", "")
+                submodulos.tituloSimple("Deudas","/proveedores/articulo2", "")
+                submodulos.tituloSimple("Ingreso","/proveedores/ingreso", "")
 
                 this.fAtajos=submodulos.getAtajos();
                 this.fSubmodulos=submodulos.getJson();

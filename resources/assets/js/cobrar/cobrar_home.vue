@@ -85,34 +85,8 @@
             getEncabezado() {
                 var submodulos = new submodulo(this.$router);
 
-
-                submodulos.tituloSimple("Ordenes", "/cobrar/sirviendo", "", "")
-                submodulos.tituloSimple("Caja", "/cobrar/caja", "", "")
-                submodulos.tituloSimple("Nueva", "/cobrar/lugar", "", "")
-                submodulos.tituloSimple("Salones", "/cobrar/ordenesMesa", "", "")
-                submodulos.tituloSimple("Cuarentena", "/cobrar/cuarentena", "", "")
-                submodulos.tituloSimple("Correo","/cobrar/correo", "KeyT","CTRL + ALT + T")
-
-
-                submodulos.crearAtajo("Ordenes", "CTRL + SHIFT + O");
-                submodulos.crearAtajo("Nuevo Abono", "CTRL + SHIFT + A");
-                submodulos.crearAtajo("Nuevo Gasto", "CTRL + SHIFT + G");
-                submodulos.crearAtajo("Salones", "CTRL + SHIFT + S");
-                submodulos.crearAtajo("Cuarentena", "CTRL + SHIFT + B");
-
-                submodulos.crearAtajoTitulo("PAGO")
-
-                submodulos.crearAtajo("Borrar", "SUPR");
-                submodulos.crearAtajo("Tarjeta", "CTRL + T");
-                submodulos.crearAtajo("Efectivo", "CTRL + E");
-                submodulos.crearAtajo("Auto-Tarjeta", "CTRL + L");
-                submodulos.crearAtajo("Listo", "ENTER");
-                submodulos.crearAtajo("Cortesía", "CTRL + S");
-
-
-                submodulos.crearAtajoTitulo("DETALLE ORDENES")
-                submodulos.crearAtajo("Cobrar", "CTRL + C");
-                submodulos.crearAtajo("Quitar/Agregar Propina", "CTRL + SHIFT + R");
+ 
+                submodulos.tituloSimple("Finanzas", "/cobrar/caja", "", "")
 
                 this.fAtajos = submodulos.getAtajos();
                 this.fSubmodulos = submodulos.getJson();

@@ -5,7 +5,7 @@
                 <v-btn-toggle dark v-model="toggle_exclusive" mandatory >
                     <v-btn  :ripple="false" large  depressed color="teal darken-4" to="/cobrar/caja/opciones/">Opciones</v-btn>
                     <v-btn  :ripple="false" large depressed color="teal darken-4" to="/cobrar/caja/detalles/">Detalles</v-btn>
-                    <v-btn  :ripple="false" large depressed color="teal darken-4" to="/cobrar/caja/caja_operacion/">Caja</v-btn>
+                    <!-- <v-btn  :ripple="false" large depressed color="teal darken-4" to="/cobrar/caja/caja_operacion/">Caja</v-btn> -->
                 </v-btn-toggle> 
             </v-flex>
   </v-layout>

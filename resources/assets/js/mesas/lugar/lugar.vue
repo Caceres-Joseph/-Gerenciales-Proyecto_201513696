@@ -17,7 +17,7 @@
     <v-dialog v-model="dialogNuevo" max-width="500px">
       <v-card  >
         <v-card-title>
-          <span class="headline">Nuevo Lugar</span>
+          <span class="headline">Nueva Sucursal</span>
         </v-card-title>
         <v-card-text>
             <v-flex xs12>
@@ -42,7 +42,7 @@
     <v-dialog v-model="dialogModificar" max-width="500px">
       <v-card color ="grey lighten-3">
         <v-card-title>
-          <span class="headline">Modificar lugar</span>
+          <span class="headline">Modificar Sucursal</span>
         </v-card-title>
         <v-card-text>
             <v-flex xs12>
@@ -260,7 +260,7 @@ export default {
         this.axios
           .post(uri, this.item)
           .then(response => {
-            this.mensajeInfo("Lugar agregado exitosamente");
+            this.mensajeInfo("Sucursal agregada exitosamente");
 
             //hay que obtener el indice
             this.getLatestItem();
@@ -301,10 +301,10 @@ export default {
               temp.nombre = this.itemM.nombre; 
             }
 
-            this.mensajeInfo("Lugar modificado exitosamente");
+            this.mensajeInfo("Sucursal modificada exitosamente");
           })
           .catch(error => {
-            this.mensajeError("Error al modificar el lugar");
+            this.mensajeError("Error al modificar Sucursal");
           });
       } else {
         this.mensajeAdvertencia("Tiene que llenar todos los campos");

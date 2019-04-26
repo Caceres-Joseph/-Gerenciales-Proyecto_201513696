@@ -52,17 +52,9 @@
                             <v-list-tile-title><span class="grey--text">Precio Venta: Q.</span>{{this.verPrecioVenta}}
                             </v-list-tile-title>
                         </v-flex>
-                        <v-spacer></v-spacer>
-                        <v-flex xs6>
-                            <v-list-tile-title><span class="grey--text">UnidadDeMedida: </span>{{this.verUnidadDeMedida}}
-                            </v-list-tile-title>
-                        </v-flex>
+                        <v-spacer></v-spacer> 
                         <v-flex xs6>
                             <v-list-tile-title><span class="grey--text">Categoria: {{this.verCategoriaPadre}}</span>{{this.verCategoria}}
-                            </v-list-tile-title>
-                        </v-flex>
-                        <v-flex xs6>
-                            <v-list-tile-title><span class="grey--text">Lugar donde se sirve: </span>{{this.verLugarServir}}
                             </v-list-tile-title>
                         </v-flex>
 
@@ -81,17 +73,13 @@
                       class="elevation-1">
             <template slot="items" slot-scope="props">
                 <td class="text-xs-left">{{ props.item.idArticulo }}</td>
-                <td class="text-xs-left">{{ props.item.nombre }}</td>
-                <td class="text-xs-left">{{ props.item.nombreMedida }}</td>
+                <td class="text-xs-left">{{ props.item.nombre }}</td> 
                 <td class="text-xs-left">{{ props.item.descripcion }}</td>
                 <td class="text-xs-left">{{ props.item.stockMinimo }}</td>
                 <td class="text-xs-left">{{ props.item.precioCompraDefecto }}</td>
                 <td class="text-xs-left">{{ props.item.precioVentaDefecto }}</td>
 
-                <td class="justify-center layout px-0">
-                    <v-btn @click="addIngrediente(props.item)" class="mx-0" icon>
-                        <v-icon color="grey darken-3">extension</v-icon>
-                    </v-btn>
+                <td class="justify-center layout px-0"> 
                     <v-btn @click="viewItem(props.item)" class="mx-0" icon>
                         <v-icon color="grey darken-3">remove_red_eye</v-icon>
                     </v-btn>
@@ -233,10 +221,6 @@
                 {
                     text: "Nombre",
                     value: "nombre"
-                },
-                {
-                    text: "Medida",
-                    value: "nombreMedida"
                 },
                 {
                     text: "Descripcion",

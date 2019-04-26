@@ -88,6 +88,9 @@ import ingreso_detalleC from './Proveedores/cancelados/ingreso_detalle.vue'
 import ingreso_listado from './Proveedores/deudas/listado.vue'
 import ingreso_detalle from './Proveedores/deudas/ingreso_detalle.vue'
 
+import ingreso from './Proveedores/ingreso/nuevo.vue'
+
+
 /*
  **********************************************
  * LAS RUTAS
@@ -153,6 +156,12 @@ const routes = [{
                 path: 'ingreso_detalleC:id:proveedor:total:tipo:num:fecha',
                 props: {ip: getIp()},
                 component: ingreso_detalleC,
+            },
+            {
+                name: 'ingreso',
+                path: 'ingreso',
+                props: {ip: getIp()},
+                component: ingreso,
             },
 
 

@@ -31,7 +31,7 @@
       fSubmodulos:[],
       fAtajos:[],
       fChip:{
-        nombre:"Personas",
+        nombre:"RRHH",
         icono:"people"
       }
 
@@ -65,10 +65,9 @@
         var submodulos = new submodulo(this.$router);
 
         //submodulos.tituloSimple("Roles","/peoples/roles/", "KeyR", "CTRL + ALT + R")
-        submodulos.tituloSimple("Personas","/peoples/personas/", "KeyP","CTRL + ALT + P")
+        submodulos.tituloSimple("Empleados","/peoples/personas/", "KeyP","CTRL + ALT + P")
         submodulos.tituloSimple("Usuarios","/peoples/usuarios/", "KeyU","CTRL + ALT + U")
         submodulos.tituloSimple("Biométrico","/peoples/sueldo/", "KeyS","CTRL + ALT + S")
-        submodulos.tituloSimple("Configuracion","/peoples/configuracion/", "KeyC","CTRL + ALT + C")
 
         this.fAtajos=submodulos.getAtajos();
         this.fSubmodulos=submodulos.getJson();

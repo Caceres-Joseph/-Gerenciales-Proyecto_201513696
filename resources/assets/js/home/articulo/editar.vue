@@ -101,24 +101,7 @@
             </v-flex> 
 
             <v-divider inset></v-divider>
-            <br> 
-            <!-- Medida -->
-            <v-flex xs12 >
-                <v-card color="white" > 
-                    <v-layout row wrap>
-                        <v-flex xs12 sm4>
-                            <v-checkbox v-model="modelChekMedida" hide-details color="blue darken-3" label="Unidad de Medida" @change="checkBoxMedida">
-                            </v-checkbox>
-                        </v-flex>
-                        <v-spacer></v-spacer>
-                    
-                        <v-flex xs12 sm8>
-                            <v-select ref="focoMedida" item-value="idMedida" :items="medidas" :filter="customFilter" v-model="MedidaModel" item-text="nombre" autocomplete :disabled="!modelChekMedida" placeholder="Seleccione" @change="cbCambioNuevoMedida">
-                            </v-select>
-                        </v-flex>
-                    </v-layout>
-                </v-card> 
-            </v-flex> 
+            <br>  
 
             <v-divider inset></v-divider>
             <br> 
@@ -214,23 +197,7 @@
             </v-flex> -->
             <v-divider inset></v-divider>
             <br> 
-            <!-- Lugar a Servir -->
-            <v-flex xs12 >
-                <v-card color="white" > 
-                    <v-layout row wrap>
-                        <v-flex xs12 sm4>
-                            <v-checkbox v-model="modelChekLugarServir" hide-details color="blue darken-3" label="Lugar donde se sirve" @change="checkBoxLugarServir">
-                            </v-checkbox>
-                        </v-flex>
-                        <v-spacer></v-spacer>
-                    
-                        <v-flex xs12 sm8>
-                            <v-select  item-value="idLugarServir" :items="lugarServirDatos"  v-model="lugarServirModel" item-text="nombre" autocomplete :disabled="!modelChekLugarServir" placeholder="Seleccione" @change="cbCambioNuevoLugarServir">
-                            </v-select>
-                        </v-flex>
-                    </v-layout>
-                </v-card> 
-            </v-flex> 
+            
             <v-divider inset></v-divider>
             <br> 
 
